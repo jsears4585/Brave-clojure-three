@@ -3,5 +3,12 @@
 
 (defn -main
   [& args]
-  (println (str "It was the panda " "in the library " "with a dust buster"))
-  (println (str "And 1 plus 2 plus three should equal " (+ 1 2 3))))
+  (println "It was the panda " "in the library " "with a dust buster")
+  (println (str "And 1 + 2 + 3 should equal " (+ 1 2 3)))
+  (if true
+    (println "By Zeus's Hammer!")
+    (println "By Aquaman's Trident!"))
+  (if false
+    (println "By Zeus's Hammer!")
+    (println "By Aquaman's Trident!"))
+)
